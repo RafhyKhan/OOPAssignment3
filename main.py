@@ -3,13 +3,7 @@
 Name:
 Date:
 Description:
-First lets load information
-Then seperate into methods
-Then create parameters
-Than know the values to display and 
-get the values to ask
-Then we write
-Then look good'''
+'''
 
 
 '''#View flights method
@@ -22,11 +16,7 @@ source, destination, available seats, and price.
 • The function does not return any value including
 None.'''
 def view_flights(flight_data):
-
-
-  print("Here are all your flights:")
-  print(flight_data)
-
+  pass
 
 
 '''
@@ -122,10 +112,7 @@ returns it.
 '''
 def load_flights():
 
-  f_obj = open('flights.txt','r')
-  flight_data = f_obj.readlines()
-
-  return flight_data
+  pass
 
 
 
@@ -150,11 +137,7 @@ it.
 • Parameter(s): No parameters.
 • It returns the user selection.'''
 def main_menu():
-  print("1.View Flights\n 2.View Bookings \n 3.Book Flights \n 4.Cancel a Booking \n 5.Exit")
-  user_select = int(input("Choose an option?"))
-
-
-  return user_select
+  pass
 
 
 
@@ -177,20 +160,7 @@ selection
 • It displays an invalid input message if the user
 selects an invalid option'''
 def main():
-  print("Welcome Banner!!")
-
-
-  select_method = main_menu()
-
-  if select_method == 1:
-    print("View flights")
-    view_flights(load_flights())
-  if select_method == 2:
-    book_flights()
-  if select_method == 3:
-    view_bookings()
-  if select_method == 4:
-    cancel_booking()
+  pass
   
 
 if __name__ == "__main__":
